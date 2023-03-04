@@ -1,8 +1,8 @@
 package ch.rewiso.archunit.configuration;
 
-public final class Constants {
+public final class ConfigurationDefaults {
 
-    private Constants() {
+    private ConfigurationDefaults() {
 
     }
 

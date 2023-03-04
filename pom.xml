@@ -20,9 +20,11 @@
         <spring.context.version>5.3.25</spring.context.version>
         <spring.web.version>5.3.25</spring.web.version>
         <spring.boot.version>2.7.9</spring.boot.version>
+        <spring-security-core.version>5.8.2</spring-security-core.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <archunit-junit5-api.version>1.0.1</archunit-junit5-api.version>
         <assertj-core.version>3.24.2</assertj-core.version>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
     </properties>
 
     <build>
@@ -52,6 +54,18 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
             <version>${spring.web.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>${spring-security-core.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
             <scope>compile</scope>
         </dependency>
 
