@@ -17,9 +17,9 @@
         <maven-surefire-plugin.version>3.0.0-M9</maven-surefire-plugin.version>
 
         <archunit.version>1.0.1</archunit.version>
-        <spring.context.version>6.0.6</spring.context.version>
-        <spring.web.version>6.0.6</spring.web.version>
-        <spring.boot.version>3.0.3</spring.boot.version>
+        <spring.context.version>5.3.25</spring.context.version>
+        <spring.web.version>5.3.25</spring.web.version>
+        <spring.boot.version>2.7.9</spring.boot.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <archunit-junit5-api.version>1.0.1</archunit-junit5-api.version>
         <assertj-core.version>3.24.2</assertj-core.version>
