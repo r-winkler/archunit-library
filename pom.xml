@@ -116,6 +116,7 @@
         <connection>scm:git://github.com/r-winkler/archunit-library.git</connection>
         <developerConnection>scm:git://github.com/r-winkler/archunit-library.git</developerConnection>
         <url>http://github.com/r-winkler/archunit-library.git/tree/main</url>
+        <tag>HEAD</tag>
     </scm>
 
 
