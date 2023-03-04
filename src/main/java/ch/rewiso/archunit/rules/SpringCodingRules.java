@@ -29,4 +29,5 @@ public class SpringCodingRules {
             ArchRuleDefinition.noFields()
                     .should().beAnnotatedWith(Autowired.class);
 
+
 }
