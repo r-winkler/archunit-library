@@ -6,7 +6,7 @@
 
     <groupId>ch.rewiso</groupId>
     <artifactId>archunit-library</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -113,10 +113,11 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/r-winkler/archunit-library.git</connection>
-        <developerConnection>scm:git:ssh://github.com/r-winkler/archunit-library.git</developerConnection>
+        <connection>scm:git://github.com/r-winkler/archunit-library.git</connection>
+        <developerConnection>scm:git://github.com/r-winkler/archunit-library.git</developerConnection>
         <url>http://github.com/r-winkler/archunit-library.git/tree/main</url>
     </scm>
+
 
     <distributionManagement>
         <repository>
