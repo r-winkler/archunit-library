@@ -4,7 +4,7 @@
 <dependency>
     <groupId>ch.rewiso</groupId>
     <artifactId>archunit-library</artifactId>
-    <version>0.0.1</version>
+    <version>${archunit-library.version}</version>
     <scope>test</scope>
 </dependency>
 ```
