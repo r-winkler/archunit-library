@@ -6,7 +6,7 @@
 
     <groupId>ch.rewiso</groupId>
     <artifactId>archunit-library</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -34,7 +34,6 @@
             </plugin>
         </plugins>
     </build>
-
 
     <dependencies>
         <dependency>
@@ -82,5 +81,42 @@
         </dependency>
 
     </dependencies>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>René Winkler</name>
+            <email>renewinkler@rewiso.ch</email>
+            <organization>rewiso</organization>
+            <organizationUrl>http://www.rewiso.ch</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/r-winkler/archunit-library.git</connection>
+        <developerConnection>scm:git:ssh://github.com/r-winkler/archunit-library.git</developerConnection>
+        <url>http://github.com/r-winkler/archunit-library.git/tree/main</url>
+    </scm>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>
+                https://s01.oss.sonatype.org/content/repositories/snapshots
+            </url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>
+                https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/
+            </url>
+        </repository>
+    </distributionManagement>
 
 </project>
